@@ -18,7 +18,6 @@ import CarCard from "../components/cars/CarCard";
 import { useCart } from "../context/CartContext";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import NotFound from "./Offline";
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({

@@ -26,7 +26,6 @@ import ValueTrade from "./pages/ValueTrade";
 import RateUs from "./components/layout/RateUsPopup";
 import HowItWorks  from "./pages/HowItWorks";
 import Settings from "./pages/Settings";
-import NotFound from "./pages/Offline";
 import useNetworkStatus from "./hooks/useNetworkStatus";
 import Notifications from "./components/layout/Notifications";
 
@@ -72,7 +71,6 @@ function App() {
         <Route path="/SuccessSold" element={<SuccessSold />} /> 
         <Route path="/valuetrade" element={<ValueTrade />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
-        <Route path="*" element={<NotFound />} />
 
         {/* Hubinfo */}
         <Route path="/safety-tips" element={<SafetyTips />} />
